@@ -3,10 +3,22 @@ Two Sum
 Brute Force Method
 This method runs at O(n^2) time complexity
 
-for i in (range(0, len(nums))):
-  for j in (range(i + 1, len(nums))):
+for i in range(0, len(nums)):
+  for j in range(i + 1, len(nums)):
       sum = nums[i] + nums[j]
       if sum == target:
         return [i, j]
         
        
+Reverse Search Brute Force Method
+Also runs at O(n^2) time complexity
+
+for i in range(0, len(nums)):
+  for j in range(i, len(nums - 1)):
+    sum = nums[i] + nums[j]:
+    if sum == target:
+    return [i, j]
+   
+The algorithm above uses the first loop to search each element of the array
+The second loop starts at the end and works backwards, in reverse. When it finds the first match to the first loop moving forward, it returns the result of the indices
+
