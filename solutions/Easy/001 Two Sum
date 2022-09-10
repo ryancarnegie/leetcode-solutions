@@ -22,3 +22,5 @@ for i in range(0, len(nums)):
 The algorithm above uses the first loop to search each element of the array
 The second loop starts at the end and works backwards, in reverse. When it finds the first match to the first loop moving forward, it returns the result of the indices
 
+The algorithm below uses a hashmap or dictionary in Python.
+
