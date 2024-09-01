@@ -1,3 +1,5 @@
+// O(n) solution with StringBuilder
+
 public class Solution {
     public string MergeAlternately(string word1, string word2) {
         StringBuilder sb = new StringBuilder();
