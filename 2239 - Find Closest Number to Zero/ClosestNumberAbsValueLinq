@@ -1,0 +1,4 @@
+public class Solution {
+    public int FindClosestNumber(int[] nums) =>
+        nums.MinBy(num => (Math.Abs(num), -num));
+}
