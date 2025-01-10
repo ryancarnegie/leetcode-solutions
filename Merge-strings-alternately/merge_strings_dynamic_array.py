@@ -34,6 +34,6 @@ class Solution:
         # Let B be the length of word2
         # Let T = A + B
 
-        # Time: O(T^2)
+        # Time: O(T)
         # Space: O(T)
 
