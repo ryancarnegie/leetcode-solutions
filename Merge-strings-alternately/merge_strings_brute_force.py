@@ -8,7 +8,7 @@ class Solution:
         while a < len(word1) and b < len(word2):
             # Alternate between word1[a] and word2[b]
             if cur_word == 1:
-                characters += word1[a]
+                characters += word1[a] # O(n) where n is the length of its current string
                 a += 1
                 cur_word = 2
             else:
