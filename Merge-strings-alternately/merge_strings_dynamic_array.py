@@ -1,6 +1,8 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        # Final Brute Force solution
+        # Final Dynamic Array solution
+        # It alternates (forces the alternate with current word is 1 and 2, alternates
+        # between the two.
         characters = [] # We want a dynamic array so we make an empty list here
         cur_word = 1
         a, b = 0, 0
@@ -32,6 +34,6 @@ class Solution:
         # Let B be the length of word2
         # Let T = A + B
 
-        # Time: O(T)
+        # Time: O(T^2)
         # Space: O(T)
 
