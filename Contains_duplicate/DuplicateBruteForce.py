@@ -3,7 +3,7 @@ class Solution:
         n = len(nums)
         for x in range(n):
             for y in range(x + 1, n):
-                if nums[x] == nums[y] and x != y:
+                if nums[x] == nums[y] and x != y: # Don't need x != y check with x + 1 in second loop either
                     return True
         return False
 
