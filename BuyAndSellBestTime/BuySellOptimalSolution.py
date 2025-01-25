@@ -9,3 +9,6 @@ class Solution:
             max_profit = max(profit, max_profit)
 
         return max_profit
+
+Time : O(N)
+Space : O(1)
