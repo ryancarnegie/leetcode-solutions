@@ -6,5 +6,5 @@ class Solution:
                 count += 1
         return count
 
-Time : O(N)
+Time : O(M * N)
 Space : O(1)
