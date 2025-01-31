@@ -7,7 +7,6 @@ class Solution:
             if stone in s:
                 count += 1
         return count
-
 Time: O(M + N)
 Space: O(N) because it is turning that string into a {set} of jewels. That set will hold the same amount of space as the stuff its storing. 
 
