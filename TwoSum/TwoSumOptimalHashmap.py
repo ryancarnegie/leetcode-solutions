@@ -16,4 +16,5 @@ class Solution(object):
 
         # We use some more space in the optimal solution but we do this because
         # it allows us to use a different data structure to do something more
-        # efficiently. We will take that tradeoff every time.
+        # efficiently. We will take that tradeoff every time. While the optimal
+        # solution takes up more space, it is still highly preferrable. 
