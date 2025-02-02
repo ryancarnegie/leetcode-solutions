@@ -12,7 +12,7 @@ class Solution:
 
 # Optimal Solution
 # Modified version
-# You make s a set of jewels to enable efficient membership checking. Sets in Python provide 
+# You make stone a set of jewels to enable efficient membership checking. Sets in Python provide 
 # O(1) average-time complexity for lookups, which makes checking whether a stone is a jewel much faster 
 # compared to iterating through a list of jewels (which would take O(M) for each lookup). 
 # This optimization significantly improves performance.
