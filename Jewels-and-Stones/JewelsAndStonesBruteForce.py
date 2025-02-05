@@ -9,8 +9,8 @@ class Solution:
 Time : O(M * N)
 Space : O(1)
 
-Outer loop (for stone in stones): 𝑁
-Inner loop (for jewel in jewels or if stone in jewels): 𝑀
+Outer loop (for stone in stones): N
+Inner loop (for jewel in jewels or if stone in jewels): M
 
 M⋅N because:
 M corresponds to jewels, which is the smaller collection in most cases, and
