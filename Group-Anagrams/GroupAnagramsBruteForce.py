@@ -8,8 +8,8 @@ class Solution:
             ans[key].append(s)
         return list(ans.values())
 
-# Time: O(n)
-# Space: 
+Time: O(n * m log m)
+# Space: O(n * m)
 
 
 # Explanation:
