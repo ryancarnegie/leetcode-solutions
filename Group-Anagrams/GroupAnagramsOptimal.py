@@ -34,4 +34,6 @@ But it does not return a list. It needs to return a list of all of those inner l
 being on line 3 in the defintion. 
 
 
-
+Notes: If you ever see the word "grouping", you can use a dictionary. 
+We group because we can map the 'like thing', the thing it shares in common will be the key, and then 
+you can always group those words up together in a list of stuff.
