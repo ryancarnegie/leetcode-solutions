@@ -12,6 +12,8 @@ class Solution:
                 ans[key] = [s]
         return list(ans.values())
 
+# Time: O(n * m log m)
+# Space: O(n * m)
 
 # Breakdown of each line.
 
