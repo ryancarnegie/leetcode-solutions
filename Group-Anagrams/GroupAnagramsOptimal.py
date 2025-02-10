@@ -12,7 +12,7 @@ class Solution:
                 ans[key] = [s]
         return list(ans.values())
 
-# Time: O(n * m log m)
+# Time: O(n * m)
 # Space: O(n * m)
 
 # Breakdown of each line.
