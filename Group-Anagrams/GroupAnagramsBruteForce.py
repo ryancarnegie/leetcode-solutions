@@ -8,7 +8,7 @@ class Solution:
             ans[key].append(s)
         return list(ans.values())
 
-Time: O(n * m log m)
+# Time: O(n * m log m)
 # Space: O(n * m)
 
 
@@ -26,3 +26,6 @@ class Solution:
             else:
                 ans[key] = [s]
         return list(ans.values())
+
+# Time: O(n * m)
+# Space: O(n * m)
