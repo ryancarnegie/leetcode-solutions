@@ -3,15 +3,14 @@ class Solution:
         n = len(numbers)
         l = 0
         r = n - 1
-
         while l < r:
-            sum = numbers[l] + numbers[r]
-            if sum == target:
+            summ = numbers[l] + numbers[r]
+            if summ == target:
                 return [l + 1, r + 1]
-            elif sum < target:
+            elif summ < target:
                 l += 1
             else:
                 r -= 1
-      
+
         # Time: O(n)
         # Space: O(1)
