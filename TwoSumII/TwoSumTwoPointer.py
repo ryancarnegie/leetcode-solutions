@@ -10,7 +10,7 @@ class Solution:
             elif summ < target:
                 l += 1
             else:
-                r -= 1
+                r -= 1 
 
         # Time: O(n)
         # Space: O(1)
