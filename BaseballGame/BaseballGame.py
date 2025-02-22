@@ -14,3 +14,5 @@ class Solution:
 
 # Time: O(n)
 # Space: O(n)
+
+It can't go faster than O(n) time because we have to loop through things. 
