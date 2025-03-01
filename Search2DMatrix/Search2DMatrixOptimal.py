@@ -19,7 +19,5 @@ class Solution:
                 l = mid + 1
         return False
 
-
         # Time: O(log(m * n))
         # Space: O(1)
-        
