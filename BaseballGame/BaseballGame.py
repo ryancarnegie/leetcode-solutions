@@ -12,6 +12,7 @@ class Solution:
                 stack.append(int(item))
         return sum(stack)
 
+
 # Time: O(n)
 # Space: O(n)
 
